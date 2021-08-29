@@ -79,3 +79,5 @@ stamp("12/31/1999")(today())
 finished <- "I finished 'Dates and Times in R' on Thursday, September 4, 2017!"
 stamp(finished)(today())
 ##############################################################
+parse_date("Oct 24,1996", format = "%b %d,%Y")
+##############################################################
